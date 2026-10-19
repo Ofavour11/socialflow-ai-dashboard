@@ -21,10 +21,7 @@ packages/shared/src/**/*.js
 packages/shared/src/**/*.js.map
 
 # Environment files
-.env
-.env.*
 *.local
-.env.local
 .env.*.local
 
 # Test accounts (contains secrets)
@@ -51,7 +48,6 @@ test-report.xml
 jest_cache/
 
 # Editor directories and files
-.vscode/*
 !.vscode/extensions.json
 !.vscode/settings.json
 .idea/
@@ -118,3 +114,7 @@ backend/openapi.generated.json
 .svelte-kit/
 .vercel/
 .netlify/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
