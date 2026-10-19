@@ -4,9 +4,9 @@
   "main": "dist/server.js",
   "scripts": {
     "generate:openapi": "ts-node scripts/generate-openapi.ts",
-    "start": "node dist/server.js",
-    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
-    "build": "tsc",
+    "start": "node init && node dist/server.js",
+    "dev": "node init && ts-node-dev --respawn --transpile-only src/server.ts",
+    "build": "node init && tsc",
     "test": "jest --runInBand",
     "test:mocks": "jest --selectProjects mocks --runInBand",
     "test:db": "TEST_DATABASE_URL=postgresql://postgres:postgres@localhost:5433/socialflow_test jest --selectProjects db --runInBand",
