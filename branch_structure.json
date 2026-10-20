@@ -1,0 +1,18 @@
+{
+  "default_branch": "master",
+  "branches": [
+    "fix/1778-1779-1780-1781",
+    "master",
+    "origin"
+  ],
+  "parent": {
+    "fix/1778-1779-1780-1781": "master",
+    "master": null,
+    "origin": "master"
+  },
+  "order": [
+    "master",
+    "fix/1778-1779-1780-1781",
+    "origin"
+  ]
+}
